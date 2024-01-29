@@ -1,0 +1,48 @@
+
+:root{
+    --very-dark-blue:  #003060;
+    --dark-blue: #055C9D;
+    --light-blue:  #0E86D4;
+    --very-light-blue:  #68BBE3 ;
+    --black: #000000;
+    --white:  #F2F2F2;
+    --grey: #BABABA;
+    --poppins: 'Poppins', sans-serif;
+    --righteous: 'Righteous', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+button{
+    outline: none;
+    background: none;
+    border: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+ul{
+    list-style: none;
+}
+
+span{
+    display: inline-block;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}

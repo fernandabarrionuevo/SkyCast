@@ -1,0 +1,10 @@
+.card__detailed__info__column{
+    font-family: var(--poppins);
+    color: var(--white);
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--white);
+}
+
+.card__detailed__info__column td{
+    padding: 2rem 0 1rem 0;
+}

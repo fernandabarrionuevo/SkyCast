@@ -1,0 +1,6 @@
+.header__text__title{
+    font-family: var(--poppins);
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+}

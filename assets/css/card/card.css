@@ -1,0 +1,15 @@
+.card {
+  background: rgb(0, 48, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 48, 96, 1) 0%,
+    rgba(14, 134, 212, 1) 50%,
+    rgba(104, 187, 227, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 3.8rem 3.3rem 2.2rem;
+  margin-bottom: 7rem;
+}

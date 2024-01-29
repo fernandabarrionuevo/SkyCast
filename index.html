@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/header/header.css" />
+    <link rel="stylesheet" href="assets/css/header/header-text.css">
+    <link rel="stylesheet" href="assets/css/header/header-text-title.css">
+    <link rel="stylesheet" href="assets/css/header/header-text-subtitle.css">
+    <link rel="stylesheet" href="assets/css/header/nav-search.css">
+    <link rel="stylesheet" href="assets/css/header/nav-search-input.css">
+    <link rel="stylesheet" href="assets/css/header/nav-search-btn.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/nav-bar/nav-bar.css" />
+    <link rel="stylesheet" href="assets/css/nav-bar/nav-bar-search-form.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/nav-bar/nav-bar-search-form-text.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/nav-bar/nav-bar-search-form-input.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/nav-bar/nav-bar-search-form-btn.css"
+    />
+    <link rel="stylesheet" href="assets/css/nav-bar/nav-bar-footer.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+    <link rel="stylesheet" href="assets/css/card/card.css" />
+    <link rel="stylesheet" href="assets/css/card/card-img.css" />
+    <link rel="stylesheet" href="assets/css/card/card-basic-info.css" />
+    <link rel="stylesheet" href="assets/css/card/card-city-name.css" />
+    <link rel="stylesheet" href="assets/css/card/card-city-temperature.css" />
+    <link rel="stylesheet" href="assets/css/card/card-city-description.css" />
+    <link rel="stylesheet" href="assets/css/card/card-city-min-max.css" />
+    <link rel="stylesheet" href="assets/css/card/card-detailed-info.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/card/card-detailed-info-column.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/card/card-detailed-info-column-item.css"
+    />
+    <script src="https://kit.fontawesome.com/ac2c8540a9.js" crossorigin="anonymous"></script>
+    <title>Sky Cast</title>
+  </head>
+
+  <body class="body">
+
+    <header class="header">
+        <div class="header__text">
+          <h1 class="header__text__title">Todos</h1>
+          <h2 class="header__text__subtitle">tus climas</h2>
+        </div>
+        <div class="nav__search">
+          <input class="nav__search__input" type="text" name="" id="" placeholder="buscar..." />
+          <button class="nav__search__btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </header>
+
+    <main class="main">
+      <section class="nav__bar">
+        <img class="nav__bar__logo" src="assets/img/Logo.png" alt="Logo" />
+        <form class="nav__bar__search__form">
+          <span class="nav__bar__search__form__text">agregar una cuidad:</span>
+          <input
+            class="nav__bar__search__form__input"
+            type="text"
+            placeholder="nombre de la ciudad..."
+          />
+          <input
+            class="nav__bar__search__form__btn"
+            type="submit"
+            value="añadir"
+          />
+        </form>
+        <p class="nav__bar__footer">Desarollado por Alura Latam</p>
+      </section>
+
+      <section class="cards">
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="car__basic__info">
+            <h4 class="card__city__name">São Paulo</h4>
+            <p class="card__city__description">Parcialmente Nublado</p>
+            <p class="card__city__temperature">18ºC</p>
+            <p class="card__city__minmax">min 12ºC | max 18ºC</p>
+          </div>
+
+          <table class="card__detailed__info">
+            <tr class="card__detailed__info__column">
+              <td>Sensación Térmica</td>
+              <td
+                class="card__detailed__info__column__item"
+                id="sensacion-termica"
+              >
+                17ºC
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Viento</td>
+              <td class="card__detailed__info__column__item" id="viento">
+                15 km/h
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Calidad del Aire</td>
+              <td class="card__detailed__info__column__item" id="calidad-aire">
+                Excelente
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Visibilidad</td>
+              <td class="card__detailed__info__column__item" id="visivilidad">
+                16 km
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="car__basic__info">
+            <h4 class="card__city__name">São Paulo</h4>
+            <p class="card__city__description">Parcialmente Nublado</p>
+            <p class="card__city__temperature">18ºC</p>
+            <p class="card__city__minmax">min 12ºC | max 18ºC</p>
+          </div>
+
+          <table class="card__detailed__info">
+            <tr class="card__detailed__info__column">
+              <td>Sensación Térmica</td>
+              <td
+                class="card__detailed__info__column__item"
+                id="sensacion-termica"
+              >
+                17ºC
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Viento</td>
+              <td class="card__detailed__info__column__item" id="viento">
+                15 km/h
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Calidad del Aire</td>
+              <td class="card__detailed__info__column__item" id="calidad-aire">
+                Excelente
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Visibilidad</td>
+              <td class="card__detailed__info__column__item" id="visivilidad">
+                16 km
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="card">
+          <div class="card__img"></div>
+          <div class="car__basic__info">
+            <h4 class="card__city__name">São Paulo</h4>
+            <p class="card__city__description">Parcialmente Nublado</p>
+            <p class="card__city__temperature">18ºC</p>
+            <p class="card__city__minmax">min 12ºC | max 18ºC</p>
+          </div>
+
+          <table class="card__detailed__info">
+            <tr class="card__detailed__info__column">
+              <td>Sensación Térmica</td>
+              <td
+                class="card__detailed__info__column__item"
+                id="sensacion-termica"
+              >
+                17ºC
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Viento</td>
+              <td class="card__detailed__info__column__item" id="viento">
+                15 km/h
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Calidad del Aire</td>
+              <td class="card__detailed__info__column__item" id="calidad-aire">
+                Excelente
+              </td>
+            </tr>
+            <tr class="card__detailed__info__column">
+              <td>Visibilidad</td>
+              <td class="card__detailed__info__column__item" id="visivilidad">
+                16 km
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

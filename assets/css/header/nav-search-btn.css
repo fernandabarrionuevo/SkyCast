@@ -1,0 +1,7 @@
+.nav__search__btn{
+    color: var(--grey);
+    font-family: var(--righteous);
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+

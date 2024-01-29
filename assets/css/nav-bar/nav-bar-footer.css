@@ -1,0 +1,7 @@
+.nav__bar__footer{
+    font-family: var(--poppins);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--light-blue);
+    margin-top: 8rem
+}

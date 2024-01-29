@@ -1,0 +1,7 @@
+.card__city__minmax{
+    font-size: 1.6rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white);
+}

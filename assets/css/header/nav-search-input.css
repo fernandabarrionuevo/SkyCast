@@ -1,0 +1,6 @@
+.nav__search__input{
+    text-transform: uppercase;
+    color: var(--grey);
+    font-family: var(--righteous);
+    font-size: 2.4rem;
+}

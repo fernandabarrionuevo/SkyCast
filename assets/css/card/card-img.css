@@ -1,0 +1,7 @@
+.card__img{
+    background-image: url("../../img/weather/cloudy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 183px;
+    height: 140px;
+}

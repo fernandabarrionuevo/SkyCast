@@ -1,0 +1,6 @@
+.card__city__temperature{
+    font-size: 9.6rem;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: var(--white);
+}

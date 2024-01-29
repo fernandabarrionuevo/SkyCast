@@ -1,0 +1,6 @@
+.card__city__description{
+    font-size: 1.6rem;
+    font-family: var(--poppins);
+    font-weight: 400;
+    color: var(--white);
+}

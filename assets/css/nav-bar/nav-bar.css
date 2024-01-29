@@ -1,0 +1,9 @@
+.nav__bar{
+    width: fit-content;
+    background-color: var(--very-dark-blue);
+    padding:0 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

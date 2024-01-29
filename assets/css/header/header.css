@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 41.2rem);
+    padding: 6.6rem 2.2rem 0 2.2rem;
+    justify-content: space-between;
+}

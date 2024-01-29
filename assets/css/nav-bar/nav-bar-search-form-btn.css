@@ -1,0 +1,14 @@
+.nav__bar__search__form__btn{
+    background-color: var(--very-light-blue);
+    color: var(--very-dark-blue);
+    font-family: var(--poppins);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto;
+    padding: 2.2rem;
+    font-size: 2.4rem;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
